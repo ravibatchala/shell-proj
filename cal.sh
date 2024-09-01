@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -exo
+
 a=$1
 b=$2
 
@@ -9,3 +11,7 @@ y=$((a-b))
 
 echo "$x is sum"
 echo "$y is diff"
+
+pwd
+free -m
+
