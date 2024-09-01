@@ -8,4 +8,4 @@ y=$((a-b))
 
 
 echo "$x is sum"
-# echo "$y is diff"
+echo "$y is diff"
